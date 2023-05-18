@@ -52,8 +52,6 @@ void subir_bajar_piso(int pin)
     delay(3000);
     mostrar_piso();
   }
-
-  estadoAnterior = estadoActual;
 }
 ~~~
 La función **'subir_bajar_piso'** recibe un argumento **'pin'**, que se espera sea el pin conectado a un botón. La funcion va a verificar si ese botón fue presionado o no.
