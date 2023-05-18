@@ -53,7 +53,7 @@ void subir_bajar_piso(int pin)
   }
 }
 ~~~
-La función **'subir_bajar_piso'** recibe un argumento **'pin'**, que se espera sea el pin conectado a un botón. La funcion va a verificar si ese botón fue presionado o no.
+La función **'subir_bajar_piso'** recibe un argumento **'pin'**, que se espera que sea un botón. La funcion va a verificar si ese botón fue presionado o no.
 Luego, dependiendo del valor de **'pin'**, se decide si el ascensor debe subir o bajar. Si se cumple la condición, el contador se incrementa o decrementa en uno y se enciende
 la LED verde que indica el movimiento del montacargas, despues de tres segundos se muestra el piso.
 
