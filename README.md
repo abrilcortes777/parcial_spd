@@ -29,10 +29,9 @@ si es que el botón de pausa no se presiono una vez, que se le pasará como para
 
 void subir_bajar_piso(int pin)
 {
-  int estadoAnterior = HIGH;
   int estadoActual = digitalRead(pin);
 	
-  if (estadoActual == LOW && estadoAnterior == HIGH) 
+  if (estadoActual == LOW) 
   {
     digitalWrite(LED_ROJA, LOW);
     digitalWrite(LED_VERDE, HIGH);
