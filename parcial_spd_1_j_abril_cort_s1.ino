@@ -1,5 +1,5 @@
 // C++ code
-//
+//Abril Cortes 1° J
 #define LED_VERDE 5
 #define LED_ROJA 6
 #define BOTON_ASC 13
