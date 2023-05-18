@@ -64,8 +64,6 @@ void subir_bajar_piso(int pin)
     delay(3000);
     mostrar_piso();
   }
-
-  estadoAnterior = estadoActual;
 }
 
 void mostrar_piso()
